@@ -1,0 +1,12 @@
+mvcblog/
+├── controllers/
+│   ├── IndexController.php
+│   └── PostController.php
+├── models/
+│   ├── IndexModel.php
+│   └── PostModel.php
+├── views/
+│   ├── index.php
+│   ├── post.php
+│   └── layout.php
+└── index.php
