@@ -1,12 +1,20 @@
 mvcblog/
-├── controllers/
-│   ├── IndexController.php
-│   └── PostController.php
-├── models/
-│   ├── IndexModel.php
-│   └── PostModel.php
-├── views/
+├── app/
+│   ├── Http/
+│   │   └── Controllers/
+│   │       ├── IndexController.php
+│   │       └── PostController.php
+│   └── Models/
+│       ├── IndexModel.php
+│       └── PostModel.php
+├── resources/
+│   └── views/
+│       ├── index.php
+│       ├── layout.php
+│       └── post.php
+├── routes/
+│   └── web.php
+├── public/
 │   ├── index.php
-│   ├── post.php
-│   └── layout.php
-└── index.php
+│   └── .htaccess
+└── .htaccess (root)
